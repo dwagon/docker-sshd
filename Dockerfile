@@ -1,5 +1,5 @@
-FROM ubuntu:12.04
-MAINTAINER Francesco Sullo, sullof@sullof.com, http://sullof.com
+FROM ubuntu
+MAINTAINER Dougal Scott dougal.scott@gmail.com
 
 RUN apt-get update && apt-get upgrade
 RUN apt-get install -y openssh-server python-setuptools && /usr/bin/easy_install supervisor
