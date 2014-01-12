@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM saucy
 MAINTAINER Dougal Scott dougal.scott@gmail.com
 
 RUN apt-get update && apt-get upgrade
